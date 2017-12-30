@@ -7455,6 +7455,7 @@ GameObject:
   - component: {fileID: 648457891}
   - component: {fileID: 648457893}
   - component: {fileID: 648457892}
+  - component: {fileID: 648457896}
   m_Layer: 0
   m_Name: Car
   m_TagString: Player
@@ -7575,6 +7576,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -0.17600001, y: 56.589005, z: 0.25800002}
+--- !u!114 &648457896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 648457890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d18f0ead4dfc0541b929921d6763465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lnitro: {fileID: 100000, guid: b6911e53f24738f4990c70f0e07e096d, type: 2}
+  rnitro: {fileID: 100000, guid: b6911e53f24738f4990c70f0e07e096d, type: 2}
+  nosRefilRate: 0.03
+  nosUseRate: 30
+  NitroSound_spray: {fileID: 0}
+  NitroSound: {fileID: 8300000, guid: 43c2396c3b036ed45a6a206515feb47d, type: 3}
+  zoom: 100
+  normal: 60
+  smooth: 2
+  NitroPower: 100
+  shakey: 0.01
+  shakex: -0.01
+  Cam: {fileID: 1454355407}
+  CamNeutralPosition: {x: 0, y: 0, z: 0}
+  fadeOutTexture: {fileID: 2800000, guid: d03c87f1c5175124ba32bcd21b6696c9, type: 3}
+  fadeSpeed: 0.3
+  drawDepth: -1000
 --- !u!1001 &653944308
 Prefab:
   m_ObjectHideFlags: 0
